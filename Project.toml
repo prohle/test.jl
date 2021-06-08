@@ -1,0 +1,13 @@
+name = "test"
+uuid = "62a93e2e-f954-43a4-af64-cf2d3956b77a"
+authors = ["Huong Yen Le <prohle@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
