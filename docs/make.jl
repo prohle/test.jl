@@ -65,5 +65,6 @@ makedocs(
 deploydocs(
     repo = "github.com/prohle/test.jl.git",
     target = "build",
+    devbranch = "main",
     push_preview = true,
 )
