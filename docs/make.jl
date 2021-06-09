@@ -59,7 +59,6 @@ makedocs(
         ],
         "contributing.md",
     ],
-    strict = !("strict=false" in ARGS),
     doctest = ("doctest=only" in ARGS) ? :only : true,
 )
 
