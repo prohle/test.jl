@@ -1,5 +1,6 @@
 module test
 
-# Write your package code here.
+using VegaLite
+include("graph_functions.jl")
 
 end
