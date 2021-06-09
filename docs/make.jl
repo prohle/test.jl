@@ -63,7 +63,7 @@ makedocs(
 )
 
 deploydocs(
-    repo = "prohle.github.com/test.jl.git",
+    repo = "github.com/prohle/test.jl.git",
     target = "build",
     push_preview = true,
 )
